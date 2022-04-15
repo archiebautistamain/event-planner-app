@@ -1,0 +1,84 @@
+@import url("http://fonts.cdnfonts.com/css/cassandra-personal-use");
+
+.bgVideo {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.head {
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  background: rgba(27, 27, 27, 0.8);
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 40px;
+  color: #c7b198;
+  font-family: "Cassandra Personal Use", sans-serif;
+  font-size: large;
+}
+
+.content > h1 {
+  margin-bottom: 0%;
+  margin-top: 10vh;
+}
+
+.content > p {
+  margin-top: 0%;
+  color: #555;
+}
+@media (min-width: 650px) {
+  .head {
+    background-position: center center;
+  }
+
+  .content {
+    align-items: flex-end;
+    justify-content: center;
+    font-size: x-large;
+  }
+
+  .content > h1 {
+    margin-bottom: 0%;
+    margin-top: -10vh;
+  }
+
+  .content > p {
+    margin-top: 0%;
+    color: #555;
+  }
+}
+
+@media (min-width: 800px) {
+  .head {
+    background-position: center center;
+  }
+
+  .content {
+    align-items: flex-end;
+    justify-content: center;
+    font-size: xx-large;
+  }
+
+  .content > h1 {
+    margin-bottom: 0%;
+    margin-top: -10vh;
+  }
+
+  .content > p {
+    margin-top: 0%;
+    color: #555;
+  }
+}

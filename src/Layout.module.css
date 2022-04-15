@@ -1,0 +1,34 @@
+@import url("http://fonts.cdnfonts.com/css/cassandra-personal-use");
+
+.layoutul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c7b198;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.layoutul > li {
+  float: right;
+}
+
+.layoutul > li > a {
+  display: block;
+  color: #f1f1f1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Cassandra Personal Use", sans-serif;
+}
+
+.layoutul > li > a:hover {
+  text-decoration: underline;
+}
+
+.active {
+  background-color: #555;
+  color: #f1f1f1;
+}
